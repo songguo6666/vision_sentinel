@@ -1,1 +1,201 @@
-IyBWaXNpb24gU2VudGluZWwKCjxwIGFsaWduPSJjZW50ZXIiPgogIDxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1BsYXRmb3JtLVdpbmRvd3MlMjAxMCUyRjExLWJsdWUiIGFsdD0iUGxhdGZvcm0iPgogIDxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1B5dGhvbi0zLjEyJTJCLWdyZWVuIiBhbHQ9IlB5dGhvbiI+CiAgPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvTGljZW5zZS1NSVQteWVsbG93IiBhbHQ9IkxpY2Vuc2UiPgo8L3A+CgojIyDwn5OWIOmhueebrueugOS7iwoKKipWaXNpb24gU2VudGluZWwqKiDmmK/kuIDkuKrkuLogW09wZW5DbGF3XShodHRwczovL2dpdGh1Yi5jb20vb3BlbmNsYXcvb3BlbmNsYXcpIOiuvuiuoeeahOacrOWcsOinhuinieaEn+efpeaKgOiDve+8iFNraWxs77yJ77yM5LiT5Li6IFdpbmRvd3MgMTAvMTEg546v5aKD55qE6Ieq5Yqo5YyWIGZhbGxiYWNrIOaEn+efpeiAjOaehOW7uuOAggoK5b2T5Li76KaB55qE57uT5p6E5YyW6YCa6YGT77yIRE9N44CBVUlB44CBTVNBQe+8ieaXoOazleino+mHiuW9k+WJjSBVSSDnirbmgIHml7bvvIxWaXNpb24gU2VudGluZWwg5o+Q5L6b5pys5Zyw6KeG6KeJ6L6F5Yqp77yM56Gu5L+d6Ieq5Yqo5YyW5Y+v6Z2g5oCn44CCCgojIyDwn46vIOaguOW/g+WKn+iDvQoKIyMjIOaEn+efpemAmumBkwoKfCDpgJrpgZMgfCDmj4/ov7AgfAp8LS0tLS0tfC0tLS0tLXwKfCAqKldpbmRvdyBNZXRhKiogfCDnqpflj6PlhYPmlbDmja7vvIjmoIfpopjjgIHov5vnqIvjgIHkvY3nva7vvIkgfAp8ICoqVUlBKiogfCBVSSBBdXRvbWF0aW9uIOWPr+iuv+mXruaAp+agkSB8CnwgKipNU0FBKiogfCBNaWNyb3NvZnQgQWN0aXZlIEFjY2Vzc2liaWxpdHkgfAp8ICoqT0NSKiogfCDlhYnlrablrZfnrKbor4bliKvvvIjlpJrlkI7nq6/mlK/mjIHvvIkgfAp8ICoqSWNvbnMqKiB8IOWbvuagh+aooeadv+WMuemFjSB8CnwgKipEaWZmKiogfCDmiKrlm77lt67lvILliIbmnpAgfAp8ICoqTG9jYWwgVkxNKiogfCDmnKzlnLDop4bop4nor63oqIDmqKHlnovvvIjlj6/pgInvvIkgfAp8ICoqQ2xvdWQqKiB8IOS6keerr+aOqOeQhu+8iOaMiemcgO+8iSB8CgojIyMg6Kem5Y+R5Zy65pmvCgotIGBzdHJ1Y3R1cmVkX2ZhaWx1cmVgIC0g57uT5p6E5YyW6YCa6YGT5peg5pyJ5pWI5YCZ6YCJCi0gYG5ld193aW5kb3dgIC0g5paw56qX5Y+j5oiW5qih5oCB5qGG5Ye6546wCi0gYHBvc3RfYWN0aW9uX3ZlcmlmeWAgLSDmk43kvZzlkI7nirbmgIHpqozor4EKLSBgaGlnaF9yaXNrX3ByZWNoZWNrYCAtIOmrmOmjjumZqeaTjeS9nOmihOajgAotIGB1bmtub3duX2NhbnZhc2AgLSDoh6rnu5jmiJYgQ2FudmFzIOexu+eVjOmdogotIGBtYW51YWxfcHJvYmVgIC0g5omL5Yqo5o6i5p+lCgojIyDwn4+X77iPIOaetuaehAoKYGBgCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgICAgICAgICAgICAgICAgICAgT3BlbkNsYXcgQWdlbnQgICAgICAgICAgICAgICAgICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSs4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiAgICAgICAgICAgICAgICAgICAgICAg4pSCCiAgICAgICAgICAgICAgICAgICAgICAg4pa8CuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgICAgICAgICAgICAgICAgVmlzaW9uIFNlbnRpbmVsICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUgiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilIIgIOKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkCAgICDilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAgICAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQICDilIIK4pSCICDilIIgICBPYnNlcnZlICAg4pSCICAgIOKUgiAgIFZlcmlmeSAgICDilIIgICAg4pSCIFdhcm11cCAg4pSCICDilIIK4pSCICDilIIgICAgICAgICAgICAg4pSCICAgIOKUgiAgIEFjdGlvbiAgICDilIIgICAg4pSCICAgICAgICAg4pSCICDilIIK4pSCICDilJTilIDilIDilIDilIDilIDilIDilKzilIDilIDilIDilIDilIDilIDilJggICAg4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSs4pSA4pSA4pSA4pSA4pSA4pSA4pSYICAgIOKUlOKUgOKUgOKUgOKUgOKUrOKUgOKUgOKUgOKUgOKUmCAg4pSCCuKUgiAgICAgICAgIOKUgiAgICAgICAgICAgICAgICAgIOKUgiAgICAgICAgICAgICAgICAgIOKUgiAgICAgICDilIIK4pSCICAgICAgICAg4pa8ICAgICAgICAgICAgICAgICAg4pa8ICAgICAgICAgICAgICAgICAg4pa8ICAgICAgIOKUggrilIIgIOKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkCDilIIK4pSCICDilIIgICAgICAgICAgICAgIEZhbGxiYWNrIENoYWluICAgICAgICAgICAgICAgICAgICAg4pSCIOKUggrilIIgIOKUgiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIg4pSCCuKUgiAg4pSCICBXaW5kb3cgTWV0YSDihpIgVUlBIOKGkiBNU0FBIOKGkiBPQ1Ig4oaSIEljb25zICAgICAgIOKUgiDilIIK4pSCICDilIIgICAgICAgICAgICDihpIgRGlmZiDihpIgTG9jYWwgVkxNIOKGkiBDbG91ZCAgICAgICAgIOKUgiDilIIK4pSCICDilIIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCIOKUggrilIIgIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmCDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCmBgYAoKIyMg8J+agCDlv6vpgJ/lvIDlp4sKCiMjIyDlronoo4Xkvp3otZYKCmBgYGJhc2gKIyDliJvlu7romZrmi5/njq/looMKdXYgdmVudiAudmVudgpzb3VyY2UgLnZlbnYvYmluL2FjdGl2YXRlICAjIExpbnV4L01hYwojIOaIliAudmVudlxTY3JpcHRzXGFjdGl2YXRlICAjIFdpbmRvd3MKCiMg5a6J6KOF6aG555uuCnV2IHBpcCBpbnN0YWxsIC1lIC4KYGBgCgojIyMg6YWN572uCgrnvJbovpEgYHNraWxsLnlhbWxgIOiHquWumuS5ieaEn+efpeihjOS4uu+8mgoKYGBgeWFtbApwZXJjZXB0aW9uOgogIG9jcjoKICAgIGVuYWJsZWQ6IHRydWUKICAgIGJhY2tlbmQ6IHJhcGlkb2NyICAjIHJhcGlkb2NyLCBlYXN5b2NyLCB0ZXNzZXJhY3QKICB2bG06CiAgICBlbmFibGVkOiB0cnVlCiAgICBtb2RlbDogbGxhdmEgICAgICAgIyBsbGF2YSwgbWluaW1vbmtleQogIGNhcHR1cmU6CiAgICBkZWZhdWx0X3JlZ2lvbjogZm9jdXNlZF93aW5kb3cKYGBgCgojIyDwn5OhIEFQSQoKIyMjIGBvYnNlcnZlYAoK6KeC5a+f5b2T5YmNIFVJIOeKtuaAge+8jOeUqOS6juacquefpeaIluS4jeehruWumueahOWcuuaZr+OAggoKYGBganNvbgovLyDovpPlhaUKewogICJyZWFzb24iOiAic3RydWN0dXJlZF9mYWlsdXJlIiwKICAidGFyZ2V0IjogIm1haW5fd2luZG93IiwKICAicm9pIjogbnVsbCwKICAiYnVkZ2V0IjogNTAwMCwKICAiY29udGV4dCI6IHt9Cn0KCi8vIOi+k+WHugp7CiAgInN0YXR1cyI6ICJvayIsCiAgInN0YXRlX2hhc2giOiAiOWYwMTg2OWNiMzliMmJlMSIsCiAgImVsZW1lbnRzIjogWy4uLl0sCiAgInVuY2VydGFpbnR5IjogW10sCiAgImNsb3VkX3BheWxvYWQiOiB7Li4ufQp9CmBgYAoKIyMjIGB2ZXJpZnlfYWN0aW9uYAoK6aqM6K+B5pON5L2c5ZCO55qE54q25oCB5Y+Y5YyW44CCCgpgYGBqc29uCi8vIOi+k+WFpQp7CiAgInJlYXNvbiI6ICJwb3N0X2FjdGlvbl92ZXJpZnkiLAogICJsYXN0X2FjdGlvbiI6IHsidHlwZSI6ICJjbGljayIsICJ0YXJnZXQiOiAic2F2ZV9idXR0b24ifSwKICAicHJlX2FjdGlvbl9zdGF0ZV9oYXNoIjogImFiYzEyMyIsCiAgInZlcmlmaWNhdGlvbl9kZWFkbGluZV9tcyI6IDMwMDAKfQpgYGAKCiMjIyBgd2FybXVwYAoK6aKE54Ot6L+Q6KGM5pe277yM5Yid5aeL5YyW57yT5a2Y5ZKM5qih5Z6L44CCCgojIyMgYHNodXRkb3duYAoK6YeK5pS+6LWE5rqQ77yM5riF55CG57yT5a2Y44CCCgojIyDimpnvuI8g6YWN572u6YCJ6aG5Cgp8IOWPguaVsCB8IOm7mOiupOWAvCB8IOaPj+i/sCB8CnwtLS0tLS18LS0tLS0tLS18LS0tLS0tfAp8IGBjaGVhcF9wYXRoX2J1ZGdldF9tc2AgfCAxMjAwIHwg5buJ5Lu36Lev5b6E6LaF5pe2IHwKfCBgb2NyX3BhdGhfYnVkZ2V0X21zYCB8IDI1MDAgfCBPQ1Ig6Lev5b6E6LaF5pe2IHwKfCBgdmxtX3BhdGhfYnVkZ2V0X21zYCB8IDUwMDAgfCDmnKzlnLAgVkxNIOi2heaXtiB8CnwgYGhhcmRfdGltZW91dF9tc2AgfCA2MDAwIHwg56Gs6LaF5pe2IHwKfCBgY2FwdHVyZXNfcGVyX3JlcXVlc3RgIHwgMiB8IOavj+asoeivt+axguaIquWbvuaVsCB8CnwgYGNsb3VkX2VzY2FsYXRpb25gIHwgZmFsc2UgfCDpu5jorqTnpoHnlKjkupHnq6/kuIrmiqUgfAoKIyMg8J+UkiDpmpDnp4EKCi0g5omA5pyJ6K+B5o2u6buY6K6k5pys5Zyw5a2Y5YKoCi0g6buY6K6k5LiN5LiK5Lyg5a6M5pW05qGM6Z2i5oiq5Zu+Ci0g5LyY5YWI5L2/55So57uT5p6E5YyW5pGY6KaB5ZKMIFJPSSDlvJXnlKgKLSDkupHnq6/kuIrmiqXpnIDopoHmmL7lvI/lkK/nlKgKCiMjIPCfk6Yg6aG555uu57uT5p6ECgpgYGAKdmlzaW9uX3NlbnRpbmVsLwrilJzilIDilIAgc3JjL3Zpc2lvbl9zZW50aW5lbC8K4pSCICAg4pSc4pSA4pSAIGFwaS5weSAgICAgICAgICAgICAgIyDlhazlhbEgQVBJCuKUgiAgIOKUnOKUgOKUgCBjYXB0dXJlLnB5ICAgICAgICAgIyDmiKrlm77mqKHlnZcK4pSCICAg4pSc4pSA4pSAIGNvbmZpZy5weSAgICAgICAgICAjIOmFjee9rueuoeeQhgrilIIgICDilJzilIDilIAgcnVudGltZS5weSAgICAgICAgICMg6L+Q6KGM5pe2CuKUgiAgIOKUnOKUgOKUgCBwZXJjZXB0aW9uLyAgICAgICAgIyDmhJ/nn6XmqKHlnZcK4pSCICAg4pSCICAg4pSc4pSA4pSAIGJyb3dzZXIucHkgICAgICMg5rWP6KeI5Zmo5oSf55+lCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBvY3IucHkgICAgICAgICAjIE9DUgrilIIgICDilIIgICDilJzilIDilIAgaWNvbnMucHkgICAgICAgIyDlm77moIfor4bliKsK4pSCICAg4pSCICAg4pSc4pSA4pSAIHVpYS5weSAgICAgICAgICMgVUlBIOWQjuerrwrilIIgICDilIIgICDilJTilIDilIAgbXNhYS5weSAgICAgICAgIyBNU0FBIOWQjuerrwrilIIgICDilJzilIDilIAgd2luZG93cy8gICAgICAgICAgICMgV2luZG93cyDnibnlrpoK4pSCICAg4pSU4pSA4pSAIHZsbS8gICAgICAgICAgICAgICMgVkxNIOmAgumFjeWZqArilJzilIDilIAgdGVzdHMvICAgICAgICAgICAgICAgICAjIOa1i+ivlQrilJTilIDilIAgU0tJTEwubWQgICAgICAgICAgICAgICMg5oqA6IO95a6a5LmJCmBgYAoKIyMg8J+boO+4jyDmioDmnK/moIgKCi0gKipQeXRob24qKiAzLjEyKwotICoqUmFwaWRPQ1IqKiAvIEVhc3lPQ1IgLyBUZXNzZXJhY3QgLSBPQ1Ig5byV5pOOCi0gKipMTGFWQSoqIC8gTWluaU1vbmtleSAtIOacrOWcsCBWTE0KLSAqKnB5d2luMzIqKiAtIFdpbmRvd3MgQVBJCi0gKipVSUF1dG9tYXRpb25Db3JlKiogLSBVSSDoh6rliqjljJYKCiMjIPCfk4Qg6K645Y+v6K+BCgpNSVQgTGljZW5zZQoKIyMg8J+knSDotKHnjK4KCuasoui/juaPkOS6pCBJc3N1ZSDlkowgUHVsbCBSZXF1ZXN077yBCgotLS0KCjxwIGFsaWduPSJjZW50ZXIiPkJ1aWx0IHdpdGgg4p2k77iPIGZvciBPcGVuQ2xhdzwvcD4=
+# Vision Sentinel
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Windows%2010%2F11-blue" alt="Platform">
+  <img src="https://img.shields.io/badge/Python-3.12%2B-green" alt="Python">
+  <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
+</p>
+
+## 📖 项目简介
+
+**Vision Sentinel** 是一个为 [OpenClaw](https://github.com/openclaw/openclaw) 设计的本地视觉感知技能（Skill），专为 Windows 10/11 环境的自动化 fallback 感知而构建。
+
+当主要的结构化通道（DOM、UIA、MSAA）无法解释当前 UI 状态时，Vision Sentinel 提供本地视觉辅助，确保自动化可靠性。
+
+## 🎯 核心功能
+
+### 感知通道
+
+| 通道 | 描述 |
+|------|------|
+| **Window Meta** | 窗口元数据（标题、进程、位置） |
+| **UIA** | UI Automation 可访问性树 |
+| **MSAA** | Microsoft Active Accessibility |
+| **OCR** | 光学字符识别（多后端支持） |
+| **Icons** | 图标模板匹配 |
+| **Diff** | 截图差异分析 |
+| **Local VLM** | 本地视觉语言模型（可选） |
+| **Cloud** | 云端推理（按需） |
+
+### 触发场景
+
+- `structured_failure` - 结构化通道无有效候选
+- `new_window` - 新窗口或模态框出现
+- `post_action_verify` - 操作后状态验证
+- `high_risk_precheck` - 高风险操作预检
+- `unknown_canvas` - 自绘或 Canvas 类界面
+- `manual_probe` - 手动探查
+
+## 🏗️ 架构
+
+```
+┌─────────────────────────────────────────────────────┐
+│                   OpenClaw Agent                     │
+└──────────────────────┬──────────────────────────────┘
+                       │
+                       ▼
+┌─────────────────────────────────────────────────────┐
+│                Vision Sentinel                        │
+│                                                      │
+│  ┌─────────────┐    ┌─────────────┐    ┌─────────┐  │
+│  │   Observe   │    │   Verify    │    │ Warmup  │  │
+│  │             │    │   Action    │    │         │  │
+│  └──────┬──────┘    └──────┬──────┘    └────┬────┘  │
+│         │                  │                  │       │
+│         ▼                  ▼                  ▼       │
+│  ┌─────────────────────────────────────────────────┐ │
+│  │              Fallback Chain                     │ │
+│  │                                                 │ │
+│  │  Window Meta → UIA → MSAA → OCR → Icons       │ │
+│  │            → Diff → Local VLM → Cloud         │ │
+│  │                                                 │ │
+│  └─────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────┘
+```
+
+## 🚀 快速开始
+
+### 安装依赖
+
+```bash
+# 创建虚拟环境
+uv venv .venv
+source .venv/bin/activate  # Linux/Mac
+# 或 .venv\Scripts\activate  # Windows
+
+# 安装项目
+uv pip install -e .
+```
+
+### 配置
+
+编辑 `skill.yaml` 自定义感知行为：
+
+```yaml
+perception:
+  ocr:
+    enabled: true
+    backend: rapidocr  # rapidocr, easyocr, tesseract
+  vlm:
+    enabled: true
+    model: llava       # llava, minimonkey
+  capture:
+    default_region: focused_window
+```
+
+## 📡 API
+
+### `observe`
+
+观察当前 UI 状态，用于未知或不确定的场景。
+
+```json
+// 输入
+{
+  "reason": "structured_failure",
+  "target": "main_window",
+  "roi": null,
+  "budget": 5000,
+  "context": {}
+}
+
+// 输出
+{
+  "status": "ok",
+  "state_hash": "9f01869cb39b2be1",
+  "elements": [...],
+  "uncertainty": [],
+  "cloud_payload": {...}
+}
+```
+
+### `verify_action`
+
+验证操作后的状态变化。
+
+```json
+// 输入
+{
+  "reason": "post_action_verify",
+  "last_action": {"type": "click", "target": "save_button"},
+  "pre_action_state_hash": "abc123",
+  "verification_deadline_ms": 3000
+}
+```
+
+### `warmup`
+
+预热运行时，初始化缓存和模型。
+
+### `shutdown`
+
+释放资源，清理缓存。
+
+## ⚙️ 配置选项
+
+| 参数 | 默认值 | 描述 |
+|------|--------|------|
+| `cheap_path_budget_ms` | 1200 | 廉价路径超时 |
+| `ocr_path_budget_ms` | 2500 | OCR 路径超时 |
+| `vlm_path_budget_ms` | 5000 | 本地 VLM 超时 |
+| `hard_timeout_ms` | 6000 | 硬超时 |
+| `captures_per_request` | 2 | 每次请求截图数 |
+| `cloud_escalation` | false | 默认禁用云端上报 |
+
+## 🔒 隐私
+
+- 所有证据默认本地存储
+- 默认不上传完整桌面截图
+- 优先使用结构化摘要和 ROI 引用
+- 云端上报需要显式启用
+
+## 📦 项目结构
+
+```
+vision_sentinel/
+├── src/vision_sentinel/
+│   ├── api.py              # 公共 API
+│   ├── capture.py         # 截图模块
+│   ├── config.py          # 配置管理
+│   ├── runtime.py         # 运行时
+│   ├── perception/        # 感知模块
+│   │   ├── browser.py     # 浏览器感知
+│   │   ├── ocr.py         # OCR
+│   │   ├── icons.py       # 图标识别
+│   │   ├── uia.py         # UIA 后端
+│   │   └── msaa.py        # MSAA 后端
+│   ├── windows/           # Windows 特定
+│   └── vlm/              # VLM 适配器
+├── tests/                 # 测试
+└── SKILL.md              # 技能定义
+```
+
+## 🛠️ 技术栈
+
+- **Python** 3.12+
+- **RapidOCR** / EasyOCR / Tesseract - OCR 引擎
+- **LLaVA** / MiniMonkey - 本地 VLM
+- **pywin32** - Windows API
+- **UIAutomationCore** - UI 自动化
+
+## 📄 许可证
+
+MIT License
+
+## 🤝 贡献
+
+欢迎提交 Issue 和 Pull Request！
+
+---
+
+<p align="center">Built with ❤️ for OpenClaw</p>
